@@ -1,0 +1,1 @@
+Simple `react-native` 0.59.6 project with working `react-native-firebase` 10.5.
