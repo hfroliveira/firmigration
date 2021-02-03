@@ -1,0 +1,13 @@
+diff --git a/node_modules/@react-native-firebase/app/RNFBApp.podspec b/node_modules/@react-native-firebase/app/RNFBApp.podspec
+index 96681e6..7b0db4d 100644
+--- a/node_modules/@react-native-firebase/app/RNFBApp.podspec
++++ b/node_modules/@react-native-firebase/app/RNFBApp.podspec
+@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
+   s.source_files        = "ios/**/*.{h,m}"
+ 
+   # React Native dependencies
+-  s.dependency          'React-Core'
++  s.dependency          'React'
+ 
+   if defined?($FirebaseSDKVersion)
+     Pod::UI.puts "#{s.name}: Using user specified Firebase SDK version '#{$FirebaseSDKVersion}'"
